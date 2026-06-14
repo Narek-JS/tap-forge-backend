@@ -6,7 +6,6 @@ import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 import { GameModule } from './game/game.module';
 import { UpgradesModule } from './upgrades/upgrades.module';
-import { TelegramModule } from './telegram/telegram.module';
 import configuration from './config/configuration';
 
 @Module({
@@ -20,7 +19,6 @@ import configuration from './config/configuration';
     UsersModule,
     GameModule,
     UpgradesModule,
-    TelegramModule,
   ],
   controllers: [AppController],
 })
